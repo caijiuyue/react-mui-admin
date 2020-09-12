@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from "react-router-dom"
 import Login from "./account/Login"
 import Dashboard from "./Dashboard"
 import NoMatch from "./errorpage/NoMatch"
-
+import NoNetwork from "./errorpage/NoNetwork"
 
 const Root = ()=>{
 	return (
@@ -13,6 +13,7 @@ const Root = ()=>{
       <Redirect exact from="/" to="/login" />
 			<Route path="/login" component={Login} />
       <Route path="/dashboard" component={Dashboard} />
+      <Route path="/nonetwork" component={NoNetwork} />
       <Route path="*" component={NoMatch} />
 		</Switch>	
 	)
