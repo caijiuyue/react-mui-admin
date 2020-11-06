@@ -14,7 +14,7 @@ const NoNetwork = ()=>{
       </div>
       <div className="mb-4">
         <Typography  variant="subtitle1" component="span">
-          赶快查一查，是不是网线备抖掉了。
+          赶快查一查，是不是网线抖掉了。
         </Typography>
       </div>
     </Container>
